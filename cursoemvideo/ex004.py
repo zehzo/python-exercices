@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print('É um algarismo? ', n.isalpha())
+print('É um número? ', n.isnumeric())
+print('É um algarismo ou número? ', n.isalnum())
+print('Está todo em maiúsculo?', n.isupper())
+print('É decimal? ',n.isdecimal())
